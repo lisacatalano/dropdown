@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Simple Navigation</title>
+  <title>Drop Down Navigation</title>
   <link rel="stylesheet" href="dropdown.css">
   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <!--[if lt IE 9]><link rel="stylesheet" href="./ie.css"><![endif]-->
@@ -14,9 +14,21 @@
     <div class="nav">
       <ul>
         <li class="home"><a href="#">Home</a></li>
-        <li class="tutorials"><a href="#">Tutorials</a></li>
+        <li class="tutorials"><a href="#">Tutorials</a>
+          <ul>
+            <li><a href="#">Tutorial #1@@</a></li>
+            <li><a href="#">Tutorial #2</a></li>
+            <li><a href="#">Tutorial #3</a></li>
+          </ul>
+        </li>
         <li class="about"><a class="active" href="#">About</a></li>
-        <li class="news"><a href="#">Newsletter</a></li>
+        <li class="news"><a href="#">Newsletter</a>
+          <ul>
+            <li><a href="#">News #1</a></li>
+            <li><a href="#">News #2@@@</a></li>
+            <li><a href="#">News #3</a></li>
+          </ul>
+        </li>
         <li class="contact"><a href="#">Contact</a></li>
       </ul>
     </div>

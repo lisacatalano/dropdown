@@ -11,9 +11,34 @@
   border-bottom: none;
   height: 50px;
   line-height: 50px;
+  font-size: 1.4em;
+  display: inline-block;
+  margin-right: -4px;
 }
 
-.nav li {
-  display: inline-block;
-  margin-left: -4px;
+.nav a {
+  border-bottom: none;
+}
+
+.nav > ul > li {
+  text-align: center;
+}
+
+.nav > ul > li > a {
+  padding-left: 0;
+}
+
+/* Sub Menus */
+.nav li ul {
+  position: absolute;
+  display: none;
+  width: inherit;
+}
+
+.nav li:hover ul {
+  display: block;
+}
+
+.nav li ul li {
+  display: block;
 }
